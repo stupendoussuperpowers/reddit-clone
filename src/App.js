@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Post from "./components/Post";
-import "./styles.css";
+import "./styles/styles.css";
 
 export default function App() {
   return (

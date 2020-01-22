@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css";
+import "../styles/styles.css";
 
 export default function Posts() {
   return (
@@ -18,9 +18,11 @@ export default function Posts() {
         />
       </div>
       <div className="post-right">
-        <p className="post-user">Posted my chakri</p>
-        <p className="post-text">wow nice post thanks</p>
-        comments
+        <p className="post-user">Posted by u/lollipop</p>
+        <p className="post-text">
+          This is the post body. Very interesting post, wow!
+        </p>
+        Comments go here
       </div>
     </div>
   );
