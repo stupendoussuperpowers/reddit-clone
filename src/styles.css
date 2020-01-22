@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+#heading {
+  margin: 0;
+  text-align: left;
+  padding: 5px;
+  background: rgb(179, 204, 255);
+  font-size: 30px;
+}
+#heading img {
+  height: 25px;
+  border-radius: 50%;
+}
+.Post img {
+  height: 25px;
+  border-radius: 50%;
+}
+.Posts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Post {
+  display: flex;
+  margin: 2%;
+  padding: 3%;
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
