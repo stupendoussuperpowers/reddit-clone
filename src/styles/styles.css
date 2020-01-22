@@ -5,7 +5,7 @@
 }
 body {
   margin: 0;
-  background-color: rgb(135, 138, 140, 0.2);
+  background-color: #dae0e6;
 }
 
 #heading {
@@ -29,7 +29,7 @@ body {
   flex-direction: row;
   align-items: flex-end;
   background-color: white;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 .SearchBar {
   height: 35px;
@@ -38,6 +38,7 @@ body {
   left: 40%;
   border-radius: 4px;
   border: 1px solid lightgray;
+  background-color: #f6f7f8;
   padding: 0 6px;
 }
 
@@ -47,7 +48,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-.post {
+.Post {
   width: 60%;
   display: flex;
   margin: 2%;
@@ -57,13 +58,13 @@ body {
 
   box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);
 }
-.post-user {
+.Post-user {
   margin-top: 0;
   font-size: 10px;
   color: grey;
   text-align: left;
 }
-.post-text {
+.Post-text {
   margin: 0;
   overflow-wrap: break-word;
 }

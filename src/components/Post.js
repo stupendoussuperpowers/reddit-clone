@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/styles.css";
 
-export default function Posts() {
+export default function Post() {
   return (
-    <div className="post">
+    <div className="Post">
       <div className="votes">
         <img
           className="upvote"
@@ -17,10 +17,10 @@ export default function Posts() {
           src="https://image.flaticon.com/icons/svg/2316/2316643.svg"
         />
       </div>
-      <div className="post-right">
-        <p className="post-user">Posted by u/lollipop</p>
-        <p className="post-text">
-          This is the post body. Very interesting post, wow!
+      <div className="Post-right">
+        <p className="Post-user">posted by u/lollipop</p>
+        <p className="Post-text">
+          This is the Post body. Very interesting Post, wow!
         </p>
         Comments go here
       </div>

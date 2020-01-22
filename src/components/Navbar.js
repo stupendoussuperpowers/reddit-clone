@@ -8,11 +8,7 @@ export default function Navbar() {
         <img src="https://pbs.twimg.com/profile_images/1197561676393926656/KUZlGyLX_400x400.jpg" />
         <span>reddit</span>
       </h1>
-      <input
-        type="text"
-        className="SearchBar"
-        placeholder="Search r/SomeSubreddit"
-      />
+      <input type="text" className="SearchBar" placeholder="Search Reddit" />
     </div>
   );
 }
