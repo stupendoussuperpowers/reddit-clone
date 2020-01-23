@@ -99,8 +99,7 @@ body {
   color: grey;
 }
 .sub-info {
-  display: inline-block;
-  min-height: 60vh;
+  min-height: 70vh;
   min-width: 30%;
   border-radius: 3px;
   background-color: white;
@@ -109,7 +108,7 @@ body {
 .sub-info h4 {
   margin: 0;
   padding: 5%;
-
+ height: 5vh;
   color: white;
   background-color: #014980;
 }
