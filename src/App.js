@@ -1,5 +1,13 @@
-import React from "react";
+import React,{} from "react";
 import Navbar from "./components/Navbar";
+import PostList from "./components/PostList"
+import SubReddit from "./components/SubReddit"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Post from "./components/Post";
 import PostCard from "./components/SubReddit/PostCard"
 import SubInfo from "./components/SubReddit/SubInfo"
@@ -10,26 +18,14 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
-      <h2 id="post-head"> Posts</h2>
-      <div className="main-wrapper">
-        <div className="Post-List">
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-        </div>
-        <Card />
-      </div>
-      <div className="post-wrapper">
-        <div className="column-1">
-          <PostCard />
-        </div>
+      <Router>
 
-        <div className="column-2">
-          <SubInfo />
-          <SubInfo />
-        </div>
-      </div>
+        <Switch>
+          <Route exact path="/" >
+            <SubReddit/>
+          </Route>
+        </Switch>
+      </Router>
 
     </div>
   );
