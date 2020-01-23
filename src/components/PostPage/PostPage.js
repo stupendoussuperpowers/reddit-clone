@@ -7,7 +7,7 @@ import "../../styles/styles.css";
 
 export default function PostList() {
   return (
-    <div className="App">
+    <div className="PostList">
       
       <div className="post-wrapper">
         <div className="column-1">

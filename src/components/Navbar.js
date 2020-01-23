@@ -3,7 +3,7 @@ import "../styles/styles.css";
 
 export default function Navbar() {
   return (
-    <div className="App">
+    <div className="Navbar">
       <h1 id="heading">
         <img src="https://pbs.twimg.com/profile_images/1197561676393926656/KUZlGyLX_400x400.jpg" />
         reddit

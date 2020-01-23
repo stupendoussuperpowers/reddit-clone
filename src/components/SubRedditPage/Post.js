@@ -20,7 +20,7 @@ export default function Posts() {
       </div>
       <div className="post-right">
         <p className="post-user">Posted my chakri</p>
-        <p className="post-text">wow nice post thanks</p>
+        <p className="post-text">A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also A Lorem generator, doing William Gibson or Goethe or Buzzwords style none-sense filler text. You can also </p>
         <div className="lowerBar">
         <div className="comment-head">Comments</div>
         <div className="comment-head">Share</div>

@@ -7,7 +7,7 @@ import "../../styles/styles.css";
 
 export default function SubReddit() {
   return (
-    <div className="App">
+    <div className="SubReddit">
     
       <h2 id="post-head"> Posts</h2>
       <div className="main-wrapper">

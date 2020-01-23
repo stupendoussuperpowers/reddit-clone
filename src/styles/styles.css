@@ -1,15 +1,17 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  
 }
 body {
   margin: 0;
+  background: rgb(179, 204, 255);
 }
 #heading {
   margin: 0;
   text-align: left;
   padding: 5px;
-  background: rgb(179, 204, 255);
+  background: white;
   font-size: 30px;
 }
 #heading img {
@@ -33,22 +35,24 @@ body {
   align-items: flex-start;
 }
 .post {
-  width: 70%;
-  min-height: 20vh;
+ width: 80%;
+  
   display: flex;
   margin: 2%;
-  padding: 0.5%;
+
+  background-color: white;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .post-user {
   margin-top: 0;
-  margin-left: 2%;;
+  margin-left: 1%;;
   font-size: 10px;
   color: grey;
   text-align: left;
 }
 .post-text {
-  margin: 0;
+  margin: 0 1%;
+  text-align: left;
   overflow-wrap: break-word;
 }
 .votes {
@@ -84,7 +88,7 @@ body {
 .post-right {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 
   width: 90%;
 }
@@ -96,8 +100,8 @@ body {
 }
 .sub-info {
   display: inline-block;
-  height: 50%;
-  width: 50%;
+  min-height: 60vh;
+  min-width: 30%;
   border-radius: 3px;
   background-color: white;
   box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);
@@ -118,10 +122,11 @@ body {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-  justify-content: space-between;
+  justify-content: space-around;
+ 
 }
 
 .lowerBar{
   display: flex;
-  
+  margin: 0 1%;
 }
