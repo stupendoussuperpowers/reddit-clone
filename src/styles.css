@@ -16,18 +16,24 @@ body {
   height: 25px;
   border-radius: 50%;
 }
+#post-head {
+  text-align: left;
+  margin: 2% 5%;
+  width: 50%;
+  border-bottom: 2px solid grey;
+}
 .Post img {
   height: 25px;
   border-radius: 50%;
 }
 .Post-List {
-  margin-left: 10%;
   display: flex;
+  min-width: 70%;
   flex-direction: column;
   align-items: flex-start;
 }
 .post {
-  width: 60%;
+  width: 70%;
   display: flex;
   margin: 2%;
   padding: 3%;
@@ -67,4 +73,43 @@ body {
 .downvote:hover {
   background-color: red;
   border-radius: 50%;
+}
+
+.comment {
+  width: 80%;
+}
+.post-right {
+  width: 90%;
+}
+.comment-head {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 10px;
+  color: grey;
+}
+.sub-info {
+  display: inline-block;
+  height: 50%;
+  width: 50%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);
+}
+.sub-info h4 {
+  margin: 0;
+  padding: 5%;
+
+  color: white;
+  background-color: #014980;
+}
+
+.sub-info p {
+  padding: 5px;
+  overflow-wrap: break-word;
+}
+.main-wrapper {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
 }
