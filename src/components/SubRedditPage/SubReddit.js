@@ -2,8 +2,8 @@ import React from "react";
 
 import Post from "./Post";
 
-import Card from "./Card";
-import "../styles/styles.css";
+import SideCard from "./SideCard";
+import "../../styles/styles.css";
 
 export default function SubReddit() {
   return (
@@ -17,7 +17,7 @@ export default function SubReddit() {
           <Post />
           <Post />
         </div>
-        <Card />
+        <SideCard />
       </div>
     </div>
   );

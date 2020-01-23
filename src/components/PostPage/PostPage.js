@@ -1,9 +1,9 @@
 import React from "react";
 
-import PostCard from "./SubReddit/PostCard"
-import SubInfo from "./SubReddit/SubInfo"
+import PostCard from "./PostCard"
+import SubInfo from "./SubInfo"
 
-import "../styles/styles.css";
+import "../../styles/styles.css";
 
 export default function PostList() {
   return (

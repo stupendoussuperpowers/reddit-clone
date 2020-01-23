@@ -1,9 +1,10 @@
 import React from "react";
-import "../styles/styles.css";
 
-export default function Comment() {
+import "../../styles/styles.css";
+
+export default function Posts() {
   return (
-    <div className="post comment">
+    <div className="post">
       <div className="votes">
         <img
           className="upvote"
@@ -20,7 +21,13 @@ export default function Comment() {
       <div className="post-right">
         <p className="post-user">Posted my chakri</p>
         <p className="post-text">wow nice post thanks</p>
+        <div className="lowerBar">
+        <div className="comment-head">Comments</div>
+        <div className="comment-head">Share</div>
+        <div className="comment-head">Save</div>
       </div>
+      </div>
+      
     </div>
   );
 }

@@ -1,17 +1,13 @@
 import React,{} from "react";
 import Navbar from "./components/Navbar";
-import PostList from "./components/PostList"
-import SubReddit from "./components/SubReddit"
+import PostList from "./components/PostPage/PostPage"
+import SubReddit from "./components/SubRedditPage/SubReddit"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-import Post from "./components/Post";
-import PostCard from "./components/SubReddit/PostCard"
-import SubInfo from "./components/SubReddit/SubInfo"
-import Card from "./components/Card";
+
 import "./styles/styles.css";
 
 export default function App() {
@@ -23,6 +19,9 @@ export default function App() {
         <Switch>
           <Route exact path="/" >
             <SubReddit/>
+          </Route>
+          <Route exact path="/post" >
+            <PostList/>
           </Route>
         </Switch>
       </Router>
