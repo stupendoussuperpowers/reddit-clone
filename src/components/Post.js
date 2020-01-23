@@ -1,6 +1,6 @@
 import React from "react";
 import Comment from "./Comment";
-import "../styles.css";
+import "../styles/styles.css";
 
 export default function Posts() {
   return (
